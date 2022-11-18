@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>InSite</title>
+ <meta charset="utf-8" name="viewport" content="width=device-width">
+ <link rel="stylesheet" href="newsite9.css">
+ <script src="newsite9.js"></script>
+ </head>
+ <body id="body">
+ <div class="content" onclick="func1()">
+ <img src="newsite9img1.jpg" alt="Fjords" id="intro">
+ <div class="welcome">Welcome to InSite project. This is a new website where I create articles about photos that were found on Internet,
+ or about anything else.</div>
+ </div>
+ <div class="base">
+ <article>
+  <img class="articleimg" src="newsite9img2.jpg" alt="Bus">
+  <div class="top">In search of classic buses</div>
+  <div class="text">When I dropped by a retro tram exhibiton in Budapest, I noticed many details. Although the tram design seems simple,
+  it has something that makes me feel just alright. It's not empty at all – in fact, yellow colors add a unique German style.</div>
+  <div class="more" onclick="func2()">See more</div>
+ </article>
+  <article>
+  <img class="articleimg" src="newsite9img3.jpg" alt="Tulips">
+  <div class="top">Tulip field visit</div>
+  <div class="text">Last Thursday the weather was good and I went to a nearby meadow. Luckily, it is located only half a kilometer away from
+  my block in Hamburg, so I don't even need to take a car. I downloaded a couple of audiobooks to make this visit even more fun.</div>
+  <div class="more" onclick="func3()">See more</div>
+ </article>
+  <article>
+  <img class="articleimg" src="newsite9img4.jpg" alt="Library">
+  <div class="top">Books create a new vision</div>
+  <div class="text">There's a big library in my city and one of my good friends told me about it once. When I finally got there I was
+  surprised by its amount of books! Most of them are classical, so I can have some fun reading Goethe or Dostoevsky. There's also wonderful
+  coffee.</div>
+  <div class="more" onclick="func4()">See more</div>
+ </article>
+ </div>
+ <div id="art1">
+ <div class="return" id="return1" onclick="func5()">Return</div>
+ <img src="newsite9img2.jpg" alt="Bus" class="artimage">
+ <div class="caption">In search of classic buses</div>
+ <hr><br><br><br>
+ <div class="artcontent">
+ When I dropped by a retro tram exhibiton in Budapest, I noticed many details. Although the tram design seems simple,
+  it has something that makes me feel just alright. It's not empty at all – in fact, yellow colors add a unique German style.<br>
+  <br>
+  I believe that some of these buses were manufactured in the USA. This is the country that saw a massive boom in industrial revolution
+  and many production blueprints are now in various parts of Europe. To put it simply, transport gets more and more modernized every day.
+  There are also many projects that adjust it for ecology and sustainable city development.<br><br>
+  Added on 14.11.2022<br><br>
+ </div>
+ </div>
+ <div id="art2">
+ <div class="return" id="return2" onclick="func5()">Return</div>
+ <img src="newsite9img3.jpg" alt="Tulips" class="artimage">
+ <div class="caption2">Tulip field visit</div>
+ <hr><br><br><br>
+ <div class="artcontent">
+ Last Thursday the weather was good and I went to a nearby meadow. Luckily, it is located only half a kilometer away from
+  my block in Hamburg, so I don't even need to take a car. I downloaded a couple of audiobooks to make this visit even more fun.<br>
+  <br>
+  I like the fact that I balance between city life and nature. One of my friends who lives in Berlin's Moabit district says that he'd
+  love to visit me in the summer when he doesn't have much study. There's a café in my area that serves Italian food and from my
+  experience it's very nice.<br><br>
+  Added on 07.11.2022<br><br>
+ </div>
+ </div>
+ <div id="art3">
+ <div class="return" id="return3" onclick="func5()">Return</div>
+ <img src="newsite9img4.jpg" alt="Library" class="artimage">
+ <div class="caption">Books create a new vision</div>
+ <hr><br><br>
+ <div class="artcontent">
+ There's a big library in my city and one of my good friends told me about it once. When I finally got there I was
+  surprised by its amount of books! Most of them are classical, so I can have some fun reading Goethe or Dostoevsky. There's also wonderful
+  coffee.<br><br>
+  As I know, they plan a special program on Christmas vacation. It should have many wondrous events and new collections for reading.
+  According to their list, The Little Prince extravaganza will be there on the weekend before celebrations begin. My dream is to visit
+  such an event!<br><br>
+  Added on 03.11.2022<br><br>
+ </div>
+ </div>
+  </body>
+ </html>
